@@ -1,0 +1,28 @@
+---
+# The machine's hostname
+hostname:  debian-wheezy-i386-python2
+
+# Networking configuration
+ip:        192.168.168.192    # optional, default is DHCP
+#network:   public             # optional, default is private
+#interface: eth0               # optional (only for public network)
+
+# Toggle VirtualBox headless mode
+#virtualbox_gui: true          # optional, default is false
+
+# The base box for this build
+box: debian-wheezy-i386_v5
+box_url: http://bmorg.io/vagrant/debian-wheezy-i386_v5.box
+box_md5: e96bc7e6c4a4542bac8557a309c1de91
+
+# The provisioner for initial setup
+provisioners:
+  - {type: shell, path: bootstrap.sh}
+  #- {type: puppet, manifest: manifest.pp}
+
+# Additional host folders synced to the guest machine
+#synced_folders:
+#  - host: /path/to/local/directory
+#    guest: /path/to/VM/directory
+#    owner: UID  # replace with owner uid
+#    group: GID  # replace with owner gid

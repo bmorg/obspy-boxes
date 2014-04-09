@@ -1,0 +1,9 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Without this file, the VM instance (and the .vagrant folder) are 
+# created in the folder where the first Vagrantfile is found (i.e. the
+# parent directory).
+
+# Load the shared Vagrantfile from the parent folder
+load '../Vagrantfile'

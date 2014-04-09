@@ -1,0 +1,8 @@
+#
+# Force Unix line endings for all files
+#
+# Git, automatically converts line endings, so when checked out in
+# windows, then synced into Linux VM, e.g. shebang would be /bin/sh^M.
+#
+
+* text eol=lf
