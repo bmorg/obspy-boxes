@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
 #####################################################################
-# Bootstrap file for building the Debian Wheezy Python 3 ObsPy box.
 #
-# Note: ...
-#       ...
-# 
+# Build Python 3 and ObsPy on Debian Wheezy i386.
+#
 #####################################################################
 
 function banner {

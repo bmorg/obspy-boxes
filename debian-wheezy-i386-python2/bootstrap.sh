@@ -2,7 +2,7 @@
 
 #####################################################################
 #
-# Bootstrap file for building the Debian Wheezy Python 2 ObsPy box.
+# Build Python 2 and ObsPy on Debian Wheezy i386.
 #
 #####################################################################
 
