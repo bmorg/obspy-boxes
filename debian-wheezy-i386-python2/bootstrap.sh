@@ -68,7 +68,7 @@ apt-get -q -y install curl
 su vagrant <<'EOF'
 curl -O --sslv3 https://raw.githubusercontent.com/bmorg/sandbox/bash_enhancements/buildbots/install_python.sh
 bash install_python.sh
-echo "export PATH=~/local/bin:$PATH" >> .profile
+echo "export PATH=/home/vagrant/local/bin:$PATH" >> .profile
 EOF
 
 # Install ObsPy (use login shell to make sure .profile is executed)
